@@ -12,11 +12,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Mirror to Gitee
-        uses: fregante/mirror-to-gitee@v2
+        uses: kurisaW/ci_bot@main
         with:
           source_repo: "https://github.com/kurisaW/rt-thread"
           gitee_repo: "https://gitee.com/kurisaW/rt-thread"
-          token: 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
+          token: ${{ secrets.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 }}
 
   sync-repo-2:
     runs-on: ubuntu-latest
@@ -25,11 +25,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Mirror to Gitee
-        uses: fregante/mirror-to-gitee@v2
+        uses: kurisaW/ci_bot@main
         with:
           source_repo: "https://github.com/kurisaW/pkgs.git"
           gitee_repo: "https://gitee.com/kurisaW/pkgs.git"
-          token: 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
+          token: ${{ secrets.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 }}
 
   sync-repo-3:
     runs-on: ubuntu-latest
@@ -38,11 +38,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Mirror to Gitee
-        uses: fregante/mirror-to-gitee@v2
+        uses: kurisaW/ci_bot@main
         with:
           source_repo: "https://github.com/kurisaW/my_tools.git"
           gitee_repo: "https://gitee.com/kurisaW/my_tools.git"
-          token: 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
+          token: ${{ secrets.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 }}
         
   sync-repo-4:
     runs-on: ubuntu-latest
@@ -51,8 +51,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Mirror to Gitee
-        uses: fregante/mirror-to-gitee@v2
+        uses: kurisaW/ci_bot@main
         with:
           source_repo: "https://github.com/kurisaW/kurisaW_docs.git"
           gitee_repo: "https://gitee.com/kurisaW/kurisaW_docs.git"
-          token: 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
+          token: ${{ secrets.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 }}
