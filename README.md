@@ -1,10 +1,7 @@
-# ci_bot：gitee镜像仓库同步
+[![Sync Github Repos To Gitee](https://github.com/kurisaW/Gitee-Mirror-Sync/actions/workflows/Sync.yml/badge.svg)](https://github.com/kurisaW/Gitee-Mirror-Sync/actions/workflows/Sync.yml)
 
-[![Sync Github Repos To Gitee](https://github.com/kurisaW/ci_bot/actions/workflows/Sync.yml/badge.svg)](https://github.com/kurisaW/ci_bot/actions/workflows/Sync.yml)
+## **Gitee-Mirror-Sync：gitee镜像仓库同步**
 
----
-
-# How to use it?
 
 ## 前言
 
