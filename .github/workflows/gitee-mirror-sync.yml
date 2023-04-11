@@ -14,8 +14,8 @@ jobs:
       - name: Mirror to Gitee
         uses: fregante/mirror-to-gitee@v2
         with:
-          source_repo: "kurisaW/rt-thread"
-          gitee_repo: "kurisaW/rt-thread"
+          source_repo: "https://github.com/kurisaW/rt-thread.git"
+          gitee_repo: "https://gitee.com/kurisaW/rt-thread.git"
           token: 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
 
   sync-repo-2:
@@ -27,8 +27,8 @@ jobs:
       - name: Mirror to Gitee
         uses: fregante/mirror-to-gitee@v2
         with:
-          source_repo: "kurisaW/pkgs"
-          gitee_repo: "kurisaW/pkgs"
+          source_repo: "https://github.com/kurisaW/pkgs.git"
+          gitee_repo: "https://gitee.com/kurisaW/pkgs.git"
           token: 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
 
   sync-repo-3:
@@ -40,8 +40,8 @@ jobs:
       - name: Mirror to Gitee
         uses: fregante/mirror-to-gitee@v2
         with:
-          source_repo: "kurisaW/my_tools"
-          gitee_repo: "kurisaW/my_tools"
+          source_repo: "https://github.com/kurisaW/my_tools.git"
+          gitee_repo: "https://gitee.com/kurisaW/my_tools.git"
           token: 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
         
   sync-repo-4:
@@ -53,6 +53,6 @@ jobs:
       - name: Mirror to Gitee
         uses: fregante/mirror-to-gitee@v2
         with:
-          source_repo: "kurisaW/kurisaW_docs"
-          gitee_repo: "kurisaW/kurisaW_docs"
+          source_repo: "https://github.com/kurisaW/kurisaW_docs.git"
+          gitee_repo: "https://gitee.com/kurisaW/kurisaW_docs.git"
           token: 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
