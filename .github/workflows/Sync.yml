@@ -13,6 +13,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.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 }}
         with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: https://github.com/kurisaW/kurisaW_docs.git
+          source-repo: git@github.com:kurisaW/kurisaW_docs.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: https://gitee.com/kurisaW/kurisaW_docs.git
+          destination-repo: git@gitee.com:kurisaW/kurisaW_docs.git
