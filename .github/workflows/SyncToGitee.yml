@@ -1,9 +1,6 @@
 name: Sync Github Repos To Gitee
 
-on:
-  push:
-    branches: 
-      - master
+on:[ push, delete, create ]
 
 jobs:
   build:
