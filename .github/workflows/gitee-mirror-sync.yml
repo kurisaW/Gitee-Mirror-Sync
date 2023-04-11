@@ -3,8 +3,18 @@ name: Gitee Mirror Sync
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest code
+        uses: actions/checkout@v2
+
   sync-repo-1:
     runs-on: ubuntu-latest
     steps:
